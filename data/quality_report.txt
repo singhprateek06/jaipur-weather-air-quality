@@ -1,0 +1,29 @@
+Rows in raw: 8760; duplicates removed: 0
+Missing hourly timestamps re-inserted: 0
+Out-of-range values in temp_c: 0
+Out-of-range values in humidity_pct: 0
+Out-of-range values in precip_mm: 0
+Out-of-range values in wind_kmh: 0
+Out-of-range values in pm10_ugm3: 0
+Out-of-range values in pm25_ugm3: 0
+Out-of-range values in no2_ugm3: 0
+Out-of-range values in o3_ugm3: 0
+Missing values per column (before -> after interpolation, max gap 3h):
+  temp_c: 0 -> 0
+  humidity_pct: 0 -> 0
+  precip_mm: 0 -> 0
+  wind_kmh: 0 -> 0
+  pm10_ugm3: 0 -> 0
+  pm25_ugm3: 0 -> 0
+  no2_ugm3: 0 -> 0
+  o3_ugm3: 0 -> 0
+Final rows: 8760 (expected 8760 for a full non-leap year)
+Min / max after cleaning:
+  temp_c: 6.50 / 44.20
+  humidity_pct: 3.00 / 100.00
+  precip_mm: 0.00 / 10.30
+  wind_kmh: 0.00 / 25.00
+  pm10_ugm3: 3.20 / 590.50
+  pm25_ugm3: 3.20 / 147.60
+  no2_ugm3: 0.00 / 88.20
+  o3_ugm3: 5.00 / 201.00
